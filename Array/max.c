@@ -29,7 +29,7 @@ void main()
 	}
 	if(flag==1)
 	{
-		printf("your number is found");
+		printf("The number is find at index: %d", i);
 		
 	}
 	else
