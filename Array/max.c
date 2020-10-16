@@ -1,23 +1,22 @@
 #include<stdio.h>
-#include<conio.h>
 void main()
 {
 	int a[100],i,n,num,flag=0;
-	printf("enter how many elements");
+	printf("Enter how many elements");
 	scanf("%d",&n);
-	printf("enter %d numbers",n);
+	printf("Enter %d elements",n);
 	for(i=0;i<n;i++)
 	{
 		scanf("%d",&a[i]);
 		
 	}
-	printf("the elements are:");
+	printf("The elements are: ");
 	for(i=0;i<n;i++)
 	{
 		printf("%d\t",a[i]);
 		
 	}
-	printf("enter the element you want to search");
+	printf("Enter the element you want to search");
 	scanf("%d",&num);
 	for(i=0;i<n;i++)
 	{
@@ -29,12 +28,12 @@ void main()
 	}
 	if(flag==1)
 	{
-		printf("your number is found");
+		printf("yeahhhh number is found");
 		
 	}
 	else
 	{
-		printf("your number is not found");
+		printf("Oh no! number is not found");
 	}
-	getch();
+	getchar();
 }
